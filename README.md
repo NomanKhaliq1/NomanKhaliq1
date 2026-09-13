@@ -1,256 +1,230 @@
-<!-- ===================== HERO ===================== -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=12,20,24&section=header&text=Noman%20Ghauri&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Web%20Developer%20%E2%80%A2%20Builder%20%E2%80%A2%20Problem%20Solver&descAlignY=56&descSize=16"/>
-
 <div align="center">
 
-### 👋 Hey, I'm Noman
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=850&height=45&lines=WordPress+%2B+PHP+Developer;Next.js+%2B+TypeScript+Developer;Building+clean+%26+functional+web+experiences;Turning+ideas+into+real-world+products" alt="Typing animation" />
-
-<br/>
-
-I build **clean, functional and practical web experiences** using modern frontend technologies and WordPress.
+<img src="./assets/noman-system.svg" width="100%" alt="Noman Ghauri Developer System"/>
 
 <br/>
 
 <a href="https://www.nomankhaliq.dev/">
-  <img src="https://img.shields.io/badge/PORTFOLIO-Visit_Website-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/ENTER_PORTFOLIO-111827?style=for-the-badge&logo=vercel&logoColor=38BDF8"/>
 </a>
-&nbsp;
+
 <a href="https://www.linkedin.com/in/noman-ghouri-8a455513a">
-  <img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://github.com/NomanKhaliq1">
-  <img src="https://img.shields.io/badge/GITHUB-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/ESTABLISH_UPLINK-111827?style=for-the-badge&logo=linkedin&logoColor=38BDF8"/>
 </a>
 
 </div>
 
-<br/>
+---
 
-<!-- ===================== ABOUT ===================== -->
+## `01 // IDENTITY`
 
-## `> whoami`
+```typescript
+interface Developer {
+    name: string;
+    role: string;
+    location: string;
+    philosophy: string;
+}
 
-```ts
-const noman = {
-  role: "Web Developer",
-
-  primaryStack: [
-    "WordPress",
-    "PHP",
-    "Next.js",
-    "TypeScript",
-    "React",
-    "TailwindCSS",
-  ],
-
-  backend: [
-    "Django",
-    "PostgreSQL",
-    "MySQL",
-  ],
-
-  interests: [
-    "Web Development",
-    "Product Building",
-    "Automation",
-    "AI",
-    "Creative Technology",
-  ],
-
-  philosophy: "Build things that are useful, clean and actually work.",
+const noman: Developer = {
+    name: "Noman Ghauri",
+    role: "Web Developer",
+    location: "Karachi, Pakistan",
+    philosophy: "Useful > complicated"
 };
 ```
 
-I enjoy solving real-world problems rather than building things just for the sake of writing code.
+I build practical digital products with a focus on **clean interfaces, useful functionality and maintainable code**.
 
-My work ranges from **custom WordPress development and integrations** to modern **Next.js applications**, internal tools, APIs and experimental product ideas.
+My work lives somewhere between engineering, product thinking and asking:
 
-<br/>
+> **“Is feature ki actually zarurat bhi hai?”**
 
-<!-- ===================== STACK ===================== -->
+---
 
-## ⚡ Tech Arsenal
+## `02 // SYSTEM MODULES`
+
+```text
+CORE
+├── WordPress ████████████████████
+├── PHP       █████████████████░░░
+├── Next.js   █████████████████░░░
+├── React     ████████████████░░░░
+└── TypeScript████████████████░░░░
+
+INTERFACE
+├── TailwindCSS
+├── JavaScript
+├── HTML / CSS
+└── Responsive UI
+
+DATA + BACKEND
+├── Django
+├── PostgreSQL
+├── MySQL
+├── REST APIs
+└── Integrations
+
+TOOLS
+├── Git / GitHub
+├── Docker
+├── VS Code
+└── AI-assisted workflows
+```
 
 <div align="center">
 
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,javascript,tailwind,html,css&theme=dark" />
-
-<br/><br/>
-
-### Backend & CMS
-
-<img src="https://skillicons.dev/icons?i=wordpress,php,django,python,nodejs&theme=dark" />
-
-<br/><br/>
-
-### Database & Tools
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,git,github,docker,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=wordpress,php,nextjs,react,ts,js,tailwind,django,python,postgres,mysql,docker,git,github,vscode&theme=dark"/>
 
 </div>
 
-<br/>
+---
 
-<!-- ===================== WHAT I BUILD ===================== -->
-
-## 🧩 What I Build
+## `03 // ACTIVE MISSIONS`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 Web Experiences
+### `MISSION_01`
 
-Responsive and performance-focused websites with clean interfaces and practical UX.
+**Web Engineering**
 
-**Main tools**
+Modern responsive experiences built around actual business requirements.
 
-`Next.js` `React` `TypeScript` `TailwindCSS`
+```yaml
+stack:
+  - Next.js
+  - TypeScript
+  - React
+  - TailwindCSS
 
-</td>
-
-<td width="50%" valign="top">
-
-### 🔧 WordPress Engineering
-
-Custom functionality beyond page builders, including plugins, APIs, dynamic templates and integrations.
-
-**Main tools**
-
-`WordPress` `PHP` `REST API` `AJAX` `MySQL`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### ⚙️ Business Tools
-
-Internal systems and utilities designed around real workflows rather than demo-only applications.
-
-**Main tools**
-
-`Django` `PostgreSQL` `Python` `APIs`
+status: ACTIVE
+```
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🧪 Product Experiments
+### `MISSION_02`
 
-I like combining development with product thinking, automation and creative business ideas.
+**WordPress Engineering**
 
-**Current creative venture**
+Going beyond page builders with custom functionality, APIs and integrations.
 
-`Alive Scents`
+```yaml
+stack:
+  - WordPress
+  - PHP
+  - REST API
+  - AJAX
+
+status: ACTIVE
+```
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-<!-- ===================== FEATURED ===================== -->
-
-## 🚀 Featured Build
+## `04 // THE LAB`
 
 <div align="center">
 
-### 🧪 Alive Scents Alchemy
+### 🧪 ALIVE SCENTS // ALCHEMY
 
-A digital project built around my fragrance venture **Alive Scents**, combining development, product experimentation and practical business tooling.
+`CODE × PRODUCT × FRAGRANCE`
+
+Alive Scents is where my developer side meets my obsession with building an actual product.
+
+Not another tutorial project.
+
+A real brand.  
+Real formulas.  
+Real workflows.  
+Real software behind it.
 
 <br/>
 
 <a href="https://github.com/NomanKhaliq1/alive-scents-alchemy">
-  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-Alive_Scents_Alchemy-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/OPEN_THE_LAB-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </div>
 
-<br/>
+---
 
-<!-- ===================== CURRENT FOCUS ===================== -->
+## `05 // CURRENT PROCESS`
 
-## 🛰️ Currently
+```bash
+noman@github:~$ ./status
 
-```text
-BUILDING    → Better full-stack web projects
-IMPROVING   → UI architecture & developer experience
-EXPLORING   → AI-assisted workflows & automation
-CREATING    → Alive Scents
-FOCUS       → Practical products over tutorial projects
+[ BUILD ] Full-stack projects
+[ LEARN ] Better architecture
+[ TEST  ] AI-assisted workflows
+[ SHIP  ] Practical products
+[ LAB   ] Alive Scents
+
+system_status: ONLINE
 ```
 
-<br/>
+---
 
-<!-- ===================== STATS ===================== -->
-
-## 📊 Developer Activity
+## `06 // TELEMETRY`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=NomanKhaliq1&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9&rank_icon=github" />
-
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NomanKhaliq1&layout=compact&theme=transparent&hide_border=true&title_color=38BDF8&text_color=C9D1D9&langs_count=8" />
+<img src="https://github-readme-stats.vercel.app/api?username=NomanKhaliq1&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9"/>
 
 <br/>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=NomanKhaliq1&theme=transparent&hide_border=true&stroke=30363D&ring=38BDF8&fire=8B5CF6&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" />
+<img src="https://streak-stats.demolab.com?user=NomanKhaliq1&theme=transparent&hide_border=true&ring=38BDF8&fire=8B5CF6&currStreakLabel=38BDF8"/>
 
 </div>
 
-<br/>
+---
 
-<!-- ===================== APPROACH ===================== -->
-
-## 🧠 How I Think About Development
+## `07 // ENGINEERING PRINCIPLES`
 
 ```diff
-+ Solve the actual problem
++ Solve the real problem
 + Keep the interface clean
-+ Make the code maintainable
-+ Test what users will actually use
-+ Prefer practical solutions over unnecessary complexity
++ Understand before implementing
++ Make code maintainable
++ Test what people actually use
++ Ship
 
-- Technology for the sake of technology
-- Bloated implementations
+- Complexity for show
+- Technology because it's trending
 - Copy-paste portfolio projects
+- 27 dependencies for a button
 ```
 
-<br/>
+---
 
-<!-- ===================== CONNECT ===================== -->
-
-## 🤝 Let's Connect
+## `08 // UPLINK`
 
 <div align="center">
 
-Have an interesting project, idea or technical problem?
+```text
+Have an idea worth building?
 
-<br/><br/>
+Connection channel ready.
+```
 
 <a href="https://www.nomankhaliq.dev/">
-  <img src="https://img.shields.io/badge/nomankhaliq.dev-Visit_Portfolio-111827?style=for-the-badge&logo=googlechrome&logoColor=white" />
+<img src="https://img.shields.io/badge/PORTFOLIO-nomankhaliq.dev-111827?style=for-the-badge&logo=googlechrome&logoColor=38BDF8"/>
 </a>
 
 <a href="https://www.linkedin.com/in/noman-ghouri-8a455513a">
-  <img src="https://img.shields.io/badge/Noman_Ghauri-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LINKEDIN-Noman_Ghauri-111827?style=for-the-badge&logo=linkedin&logoColor=38BDF8"/>
 </a>
 
 <br/><br/>
 
-`Code.` **Build.** `Improve.` **Repeat.**
+`NOMAN // SYSTEM`
+
+**BUILD → TEST → IMPROVE → SHIP**
 
 </div>
-
-<!-- ===================== FOOTER ===================== -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=12,20,24&section=footer"/>
