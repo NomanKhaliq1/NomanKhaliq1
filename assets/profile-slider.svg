@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="360"
+     viewBox="0 0 1200 360">
+
+<defs>
+
+  <linearGradient id="bg" x1="0" x2="1">
+    <stop offset="0%" stop-color="#050816"/>
+    <stop offset="55%" stop-color="#0b1220"/>
+    <stop offset="100%" stop-color="#111827"/>
+  </linearGradient>
+
+  <radialGradient id="blueGlow">
+    <stop offset="0%" stop-color="#38bdf8" stop-opacity=".4"/>
+    <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="purpleGlow">
+    <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".38"/>
+    <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+  </radialGradient>
+
+  <clipPath id="screen">
+    <rect width="1200" height="360" rx="28"/>
+  </clipPath>
+
+</defs>
+
+<!-- BACKGROUND -->
+
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+
+<circle cx="170" cy="80" r="220" fill="url(#blueGlow)">
+  <animate attributeName="cx"
+           values="170;350;170"
+           dur="8s"
+           repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1050" cy="300" r="260" fill="url(#purpleGlow)">
+  <animate attributeName="cy"
+           values="300;170;300"
+           dur="9s"
+           repeatCount="indefinite"/>
+</circle>
+
+
+<!-- ===== SLIDE 1 ===== -->
+
+<g>
+
+  <animate attributeName="opacity"
+           values="1;1;0;0;0;1"
+           keyTimes="0;.26;.32;.66;.94;1"
+           dur="12s"
+           repeatCount="indefinite"/>
+
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    values="0 0;0 0;-80 0;-80 0;80 0;0 0"
+    keyTimes="0;.26;.32;.66;.94;1"
+    dur="12s"
+    repeatCount="indefinite"/>
+
+  <text x="100" y="105"
+        fill="#38bdf8"
+        font-size="15"
+        font-family="monospace"
+        letter-spacing="4">
+    01 / INTRODUCTION
+  </text>
+
+  <text x="100" y="175"
+        fill="#ffffff"
+        font-size="52"
+        font-weight="700"
+        font-family="Arial">
+    Noman Ghauri
+  </text>
+
+  <text x="100" y="220"
+        fill="#94a3b8"
+        font-size="24"
+        font-family="Arial">
+    Web Developer • Builder • Problem Solver
+  </text>
+
+  <text x="100" y="270"
+        fill="#e2e8f0"
+        font-size="18"
+        font-family="monospace">
+    Building clean digital products that actually work.
+  </text>
+
+</g>
+
+
+<!-- ===== SLIDE 2 ===== -->
+
+<g opacity="0">
+
+  <animate attributeName="opacity"
+           values="0;0;1;1;0;0"
+           keyTimes="0;.26;.32;.60;.66;1"
+           dur="12s"
+           repeatCount="indefinite"/>
+
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    values="80 0;80 0;0 0;0 0;-80 0;-80 0"
+    keyTimes="0;.26;.32;.60;.66;1"
+    dur="12s"
+    repeatCount="indefinite"/>
+
+  <text x="100" y="105"
+        fill="#38bdf8"
+        font-size="15"
+        font-family="monospace"
+        letter-spacing="4">
+    02 / ENGINEERING
+  </text>
+
+  <text x="100" y="170"
+        fill="#ffffff"
+        font-size="46"
+        font-weight="700"
+        font-family="Arial">
+    WordPress × Next.js
+  </text>
+
+  <text x="100" y="215"
+        fill="#94a3b8"
+        font-size="24"
+        font-family="Arial">
+    Custom systems beyond templates.
+  </text>
+
+  <text x="100" y="270"
+        fill="#e2e8f0"
+        font-size="18"
+        font-family="monospace">
+    PHP • TypeScript • React • APIs • Django
+  </text>
+
+</g>
+
+
+<!-- ===== SLIDE 3 ===== -->
+
+<g opacity="0">
+
+  <animate attributeName="opacity"
+           values="0;0;0;0;1;1;0"
+           keyTimes="0;.32;.60;.66;.72;.94;1"
+           dur="12s"
+           repeatCount="indefinite"/>
+
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    values="80 0;80 0;80 0;80 0;0 0;0 0;-80 0"
+    keyTimes="0;.32;.60;.66;.72;.94;1"
+    dur="12s"
+    repeatCount="indefinite"/>
+
+  <text x="100" y="105"
+        fill="#a78bfa"
+        font-size="15"
+        font-family="monospace"
+        letter-spacing="4">
+    03 / BUILDING
+  </text>
+
+  <text x="100" y="170"
+        fill="#ffffff"
+        font-size="46"
+        font-weight="700"
+        font-family="Arial">
+    Alive Scents Alchemy
+  </text>
+
+  <text x="100" y="215"
+        fill="#94a3b8"
+        font-size="24"
+        font-family="Arial">
+    Where code meets product building.
+  </text>
+
+  <text x="100" y="270"
+        fill="#e2e8f0"
+        font-size="18"
+        font-family="monospace">
+    SOFTWARE × PRODUCT × FRAGRANCE
+  </text>
+
+</g>
+
+
+<!-- RIGHT DECORATION -->
+
+<g transform="translate(890 90)">
+
+  <rect width="220"
+        height="160"
+        rx="20"
+        fill="#0f172a"
+        stroke="#334155"/>
+
+  <text x="25" y="38"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="13">
+    SYSTEM.STATUS
+  </text>
+
+  <circle cx="30" cy="70" r="6" fill="#22c55e">
+    <animate attributeName="opacity"
+             values=".3;1;.3"
+             dur="1.5s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="48" y="76"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="15">
+    ONLINE
+  </text>
+
+  <text x="25" y="115"
+        fill="#38bdf8"
+        font-family="monospace"
+        font-size="14">
+    BUILD
+  </text>
+
+  <text x="25" y="140"
+        fill="#94a3b8"
+        font-family="monospace"
+        font-size="13">
+    TEST → SHIP
+  </text>
+
+</g>
+
+
+<!-- SLIDER DOTS -->
+
+<g transform="translate(520 325)">
+
+  <circle cx="0" cy="0" r="6" fill="#38bdf8">
+    <animate attributeName="opacity"
+             values="1;1;.25;.25;.25;1"
+             dur="12s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="32" cy="0" r="6" fill="#38bdf8">
+    <animate attributeName="opacity"
+             values=".25;.25;1;1;.25;.25"
+             dur="12s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="64" cy="0" r="6" fill="#a78bfa">
+    <animate attributeName="opacity"
+             values=".25;.25;.25;.25;1;.25"
+             dur="12s"
+             repeatCount="indefinite"/>
+  </circle>
+
+</g>
+
+</svg>
