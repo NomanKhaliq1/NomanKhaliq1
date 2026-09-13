@@ -1,0 +1,301 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420"
+     xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .sans {
+    font-family: Inter, Arial, sans-serif;
+  }
+
+  .mono {
+    font-family: "Courier New", monospace;
+  }
+
+  .slide {
+    opacity: 0;
+  }
+
+  .s1 {
+    animation: slide1 12s infinite;
+  }
+
+  .s2 {
+    animation: slide2 12s infinite;
+  }
+
+  .s3 {
+    animation: slide3 12s infinite;
+  }
+
+  @keyframes slide1 {
+    0%, 28% { opacity: 1; transform: translateX(0); }
+    33%, 95% { opacity: 0; transform: translateX(-30px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes slide2 {
+    0%, 30% { opacity: 0; transform: translateX(30px); }
+    35%, 61% { opacity: 1; transform: translateX(0); }
+    66%, 100% { opacity: 0; transform: translateX(-30px); }
+  }
+
+  @keyframes slide3 {
+    0%, 63% { opacity: 0; transform: translateX(30px); }
+    68%, 94% { opacity: 1; transform: translateX(0); }
+    100% { opacity: 0; transform: translateX(-30px); }
+  }
+
+  .progress {
+    animation: progress 4s linear infinite;
+  }
+
+  @keyframes progress {
+    from { width: 0px; }
+    to { width: 230px; }
+  }
+
+  .blink {
+    animation: blink 1.1s infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: .25; }
+  }
+</style>
+
+<!-- BACKGROUND -->
+<rect width="1200" height="420" rx="16" fill="#0D1117"/>
+
+<!-- subtle border -->
+<rect x="1" y="1" width="1198" height="418" rx="15"
+      fill="none" stroke="#30363D"/>
+
+<!-- editorial vertical rule -->
+<rect x="80" y="58" width="2" height="304" fill="#F0F0F0"/>
+
+<!-- TOP META -->
+<text x="112" y="82"
+      class="mono"
+      font-size="12"
+      fill="#8B949E"
+      letter-spacing="2">
+  PORTFOLIO / 2026
+</text>
+
+<text x="1085" y="82"
+      text-anchor="end"
+      class="mono"
+      font-size="12"
+      fill="#8B949E">
+  KARACHI · PK
+</text>
+
+<!-- LEFT BRAND -->
+<text x="112" y="150"
+      class="sans"
+      font-size="62"
+      font-weight="800"
+      fill="#F0F6FC"
+      letter-spacing="-3">
+  NOMAN
+</text>
+
+<text x="112" y="195"
+      class="sans"
+      font-size="21"
+      font-weight="500"
+      fill="#8B949E"
+      letter-spacing="5">
+  GHOURI
+</text>
+
+<text x="112" y="326"
+      class="mono"
+      font-size="12"
+      fill="#8B949E">
+  WEB DEVELOPER
+</text>
+
+<circle cx="112" cy="347" r="4" fill="#3FB950" class="blink"/>
+
+<text x="126" y="351"
+      class="mono"
+      font-size="11"
+      fill="#8B949E">
+  AVAILABLE / ONLINE
+</text>
+
+<!-- DIVIDER -->
+<line x1="440" y1="58" x2="440" y2="362"
+      stroke="#30363D"/>
+
+<!-- ================= SLIDE 01 ================= -->
+<g class="slide s1">
+
+  <text x="490" y="112"
+        class="mono"
+        font-size="13"
+        fill="#8B949E">
+    01 / 03
+  </text>
+
+  <text x="490" y="173"
+        class="sans"
+        font-size="54"
+        font-weight="700"
+        fill="#F0F6FC"
+        letter-spacing="-2">
+    WEB
+  </text>
+
+  <text x="490" y="226"
+        class="sans"
+        font-size="54"
+        font-weight="700"
+        fill="#F0F6FC"
+        letter-spacing="-2">
+    DEVELOPER.
+  </text>
+
+  <text x="490" y="273"
+        class="sans"
+        font-size="17"
+        fill="#8B949E">
+    Building clean interfaces and useful
+  </text>
+
+  <text x="490" y="298"
+        class="sans"
+        font-size="17"
+        fill="#8B949E">
+    digital experiences for the real world.
+  </text>
+
+  <text x="1000" y="330"
+        class="mono"
+        font-size="12"
+        fill="#F0F6FC">
+    CLEAN / FUNCTIONAL
+  </text>
+
+</g>
+
+<!-- ================= SLIDE 02 ================= -->
+<g class="slide s2">
+
+  <text x="490" y="112"
+        class="mono"
+        font-size="13"
+        fill="#8B949E">
+    02 / 03
+  </text>
+
+  <text x="490" y="173"
+        class="sans"
+        font-size="51"
+        font-weight="700"
+        fill="#F0F6FC"
+        letter-spacing="-2">
+    WORDPRESS
+  </text>
+
+  <text x="490" y="226"
+        class="sans"
+        font-size="51"
+        font-weight="700"
+        fill="#F0F6FC"
+        letter-spacing="-2">
+    + NEXT.JS
+  </text>
+
+  <text x="490" y="273"
+        class="sans"
+        font-size="17"
+        fill="#8B949E">
+    From custom CMS work to modern
+  </text>
+
+  <text x="490" y="298"
+        class="sans"
+        font-size="17"
+        fill="#8B949E">
+    product-focused web development.
+  </text>
+
+  <text x="1000" y="330"
+        class="mono"
+        font-size="12"
+        fill="#F0F6FC">
+    BUILD / SCALE
+  </text>
+
+</g>
+
+<!-- ================= SLIDE 03 ================= -->
+<g class="slide s3">
+
+  <text x="490" y="112"
+        class="mono"
+        font-size="13"
+        fill="#8B949E">
+    03 / 03
+  </text>
+
+  <text x="490" y="173"
+        class="sans"
+        font-size="48"
+        font-weight="700"
+        fill="#F0F6FC"
+        letter-spacing="-2">
+    PRACTICAL
+  </text>
+
+  <text x="490" y="226"
+        class="sans"
+        font-size="48"
+        font-weight="700"
+        fill="#F0F6FC"
+        letter-spacing="-2">
+    BY DEFAULT.
+  </text>
+
+  <text x="490" y="273"
+        class="sans"
+        font-size="17"
+        fill="#8B949E">
+    Less decoration. Less complexity.
+  </text>
+
+  <text x="490" y="298"
+        class="sans"
+        font-size="17"
+        fill="#8B949E">
+    More useful things that actually work.
+  </text>
+
+  <text x="1000" y="330"
+        class="mono"
+        font-size="12"
+        fill="#F0F6FC">
+    THINK / SHIP
+  </text>
+
+</g>
+
+<!-- BOTTOM SLIDER -->
+<rect x="490" y="350" width="230" height="2" fill="#30363D"/>
+
+<rect x="490" y="350"
+      height="2"
+      fill="#F0F6FC"
+      class="progress"/>
+
+<!-- tiny editorial detail -->
+<text x="1085" y="350"
+      text-anchor="end"
+      class="mono"
+      font-size="10"
+      fill="#484F58">
+  NOMANKHALIQ.DEV
+</text>
+
+</svg>
